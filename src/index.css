@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("C:\Users\Utkarsh Sharma\Desktop\COLLEGE\ELECTRICAL AND COMMUNICATION\Web Development\TattleTown\react-firebase-chat\public\bg.png");
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  color: white;
+}
+
+.container {
+  height: 95vh; 
+  width: 95vw; 
+  background-color: rgba(1, 98, 98, 0.896); 
+  backdrop-filter: blur(5px) saturate(100%);
+  border-radius: 15px; 
+  border: 1px solid rgba(0, 0, 0, 0.34); 
+  display: flex;
+} 
+
+.loading {
+  display: flex; 
+  padding: 50px; 
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 50h;
+  background-color: #282c34; 
+  box-shadow: 12px 13px 2px rgba(18, 165, 114, 0.699);
+}
+
+.loading-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #3a3f47;
+}
+
+.spinner {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-top: 6px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  font-size: 1em;
+  color: #fff;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,74 @@
+.adduser {
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(27, 64, 49, 0.849);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input { 
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+    border-color: #1e813b;
+    box-shadow: 0 0 8px rgba(30, 129, 59, 0.5);
+} 
+
+.adduserb:hover{
+    background-color: #5358bade;
+} 
+
+
+.button { 
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #228b22;
+    transform: scale(1.05);
+} 
+
+.user{
+    margin-top: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+
+    .detail{ 
+        display: flex; 
+        align-items: center; 
+        gap: 20px;
+
+        img{
+            width: 50px; 
+            height: 50px; 
+            border-radius: 50%; 
+            object-fit: cover;
+        }
+    }
+} 

@@ -1,0 +1,88 @@
+.ChatList{
+    flex: 1; 
+    /* overflow: scroll;  */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.ChatList::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ChatList::-webkit-scrollbar-track {
+    background: rgba(117, 182, 163, 0.74); 
+}
+
+.ChatList::-webkit-scrollbar-thumb {
+    background: #133d30; 
+    border-radius: 4px;
+}
+
+.search{
+    display: flex; 
+    align-items: center;
+    gap: 20px; 
+    padding: 20px; 
+} 
+
+.searchBar{
+    padding: 7px;
+    flex: 1; 
+    background-color: rgba(13, 53, 41, 0.74); 
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+} 
+
+.gt{
+    background-color: transparent; 
+    border: none; 
+    outline: none; 
+    color: white;
+    /* border-radius: 8px;  */
+    object-fit: cover;
+    flex: 2;
+} 
+
+.mns{
+    width: 30px; 
+    height: 30px;
+    background-color: rgba(13, 53, 41, 0.74); 
+    padding: 5px; 
+    border-radius: 8px; 
+    
+} 
+
+.item{
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+    cursor: pointer; 
+    border-bottom: 1px solid  rgba(31, 39, 37, 0.74); ;
+} 
+
+.nt{
+    width: 65px; 
+    height: 65px; 
+    border-radius: 50%;
+} 
+
+.texts{
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+
+} 
+
+span{
+    font-weight: 500; 
+
+} 
+
+p{
+    background-color: transparent;
+    font-size: 14px; 
+    font-weight: 200; 
+    color: #a0d8b9;
+}
